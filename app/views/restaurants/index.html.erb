@@ -1,9 +1,8 @@
 <div class="container">
-  <h1 >Restaurants in Canberra</h1>
-  <%= link_to "Add a Restaurant", new_restaurant_path %>
+  <h1 class="my-3" >Restaurants in Canberra</h1>
 
   <% @restaurants.each do |restaurant| %>
-    <h3><%= link_to restaurant.name, restaurant_path(restaurant.id) %></h3>
+    <h3 class="card p-3 rounded"><%= link_to restaurant.name, restaurant_path(restaurant.id) %></h3>
   <% end %>
 
 

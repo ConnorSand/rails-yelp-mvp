@@ -3,3 +3,14 @@
 @import "avatar";
 @import "form_legend_clear";
 @import "navbar";
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.card:hover {
+  background-color: rgb(157, 187, 213);
+
+}
